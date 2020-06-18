@@ -1,0 +1,16 @@
+PODS:
+  - CMPushNotificationService (0.1.0)
+
+DEPENDENCIES:
+  - CMPushNotificationService (from `../`)
+
+EXTERNAL SOURCES:
+  CMPushNotificationService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CMPushNotificationService: 56a8d2ad406ddbc7ab6f58dfbb5dda69320c0d94
+
+PODFILE CHECKSUM: 4869b82fa11aa7e6c7fcfe3d177ac89d1fb4b50a
+
+COCOAPODS: 1.8.4

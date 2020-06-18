@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F098DE66177BF7F7CD622AC7D34F017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6C3238FA34AA5CB31F4DEA109ADF3BF1 /* Pods-CMPushNotificationService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EFB74C160961DF888E11C2A8F28736C /* Pods-CMPushNotificationService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FDD5CEC14C5ED5EF0BCBB470A93DB99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9B0D3113A084C6853F0B36692D605D54 /* CMPushNotificationService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4622284C7C2D4F260633AC2BFF352B31 /* CMPushNotificationService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0D0064BE6EE659727B608178DC07103 /* CMPushNotificationService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8C8C5D3063DA718D9F1D7689EC4E60 /* CMPushNotificationService-dummy.m */; };
+		BB6B8292994D9A46666DEC10D92C426F /* Pods-CMPushNotificationService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C77540D888FE529D3ACF3A2355BDCEED /* Pods-CMPushNotificationService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C74072FC81CB0475A25606B8597BC09A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FCE8B5687C96E98C07FB4622D1E748 /* ReplaceMe.m */; };
+		C797C9422A926D82C35A6D15FDFE0B5A /* Pods-CMPushNotificationService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E06EEF3492B5A4B1705EB95E0B2E6 /* Pods-CMPushNotificationService_Tests-dummy.m */; };
+		D86FC3F763817075EE23E33905EA3377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DA31C584E355FBA1E695342CAD6AC6C5 /* Pods-CMPushNotificationService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D9A6CFD096CA4459875260A44E2C01 /* Pods-CMPushNotificationService_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24E53581EDFD174F46B8847151154218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48F4294C9EAEAD96A83D208C1E98E7B0;
+			remoteInfo = "Pods-CMPushNotificationService_Example";
+		};
+		F5F76E35BB6EAFB868E866AB72C82009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96BBECC8DB2B1C6FC6BBF65CF4E00A58;
+			remoteInfo = CMPushNotificationService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DC45E2230E19435FB5949F3E7FDF59 /* Pods-CMPushNotificationService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CMPushNotificationService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		301668E94179CE566B2CC331D04423BD /* Pods_CMPushNotificationService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CMPushNotificationService_Tests.framework; path = "Pods-CMPushNotificationService_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		303C25D8DCD6561BFCD822B21899F703 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3059D106C7500D11F5120E7DD824A71F /* CMPushNotificationService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CMPushNotificationService.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EFB74C160961DF888E11C2A8F28736C /* Pods-CMPushNotificationService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CMPushNotificationService_Tests-umbrella.h"; sourceTree = "<group>"; };
+		459AC1033F6B2DA3ED1957DBC3B2C610 /* CMPushNotificationService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CMPushNotificationService-Info.plist"; sourceTree = "<group>"; };
+		4622284C7C2D4F260633AC2BFF352B31 /* CMPushNotificationService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMPushNotificationService-umbrella.h"; sourceTree = "<group>"; };
+		499E229401720B5513E76BB94D8B8755 /* Pods-CMPushNotificationService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMPushNotificationService_Example.release.xcconfig"; sourceTree = "<group>"; };
+		58436481FE848E5F7B87C346129A2104 /* Pods-CMPushNotificationService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMPushNotificationService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C8E06EEF3492B5A4B1705EB95E0B2E6 /* Pods-CMPushNotificationService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CMPushNotificationService_Tests-dummy.m"; sourceTree = "<group>"; };
+		5D3340FC064F0D812CDCA043143B76F2 /* Pods-CMPushNotificationService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CMPushNotificationService_Tests.modulemap"; sourceTree = "<group>"; };
+		5E82798A0BC1E4B129725B123A533D6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		77FCE8B5687C96E98C07FB4622D1E748 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CMPushNotificationService/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		7C8C8C5D3063DA718D9F1D7689EC4E60 /* CMPushNotificationService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CMPushNotificationService-dummy.m"; sourceTree = "<group>"; };
+		9C3333023E4631C6183DF20A6DCFEDB2 /* Pods-CMPushNotificationService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CMPushNotificationService_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9CD7E075E4EB67517341D47238352061 /* Pods-CMPushNotificationService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CMPushNotificationService_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DFABA6CC7F5EFFF0327B0A03A205DB9 /* CMPushNotificationService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CMPushNotificationService.xcconfig; sourceTree = "<group>"; };
+		BF5A3C820383643B4ABF7D5E2BC9B18D /* Pods-CMPushNotificationService_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMPushNotificationService_Example-Info.plist"; sourceTree = "<group>"; };
+		C2D9A6CFD096CA4459875260A44E2C01 /* Pods-CMPushNotificationService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CMPushNotificationService_Example-dummy.m"; sourceTree = "<group>"; };
+		C57D638645D815BC928EB51C20915E57 /* Pods-CMPushNotificationService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMPushNotificationService_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C77540D888FE529D3ACF3A2355BDCEED /* Pods-CMPushNotificationService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CMPushNotificationService_Example-umbrella.h"; sourceTree = "<group>"; };
+		C7893D3E23B6FEAF8F98E5A2A8BC56F1 /* CMPushNotificationService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CMPushNotificationService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CA011AB8F8E8D20F813E2E3A7190272C /* Pods-CMPushNotificationService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMPushNotificationService_Tests-Info.plist"; sourceTree = "<group>"; };
+		CAADCF650F1D49110FEB19F00955A070 /* Pods_CMPushNotificationService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CMPushNotificationService_Example.framework; path = "Pods-CMPushNotificationService_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21941AC695290513288B657F9DE9CE9 /* CMPushNotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CMPushNotificationService.framework; path = CMPushNotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30D72AE80B3075789F7DCA41A2E85B7 /* CMPushNotificationService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMPushNotificationService-prefix.pch"; sourceTree = "<group>"; };
+		DA6EB98E4B283A51BF76E039252D6184 /* Pods-CMPushNotificationService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CMPushNotificationService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA6D58BD1CE39AAC3077A1CEF4AD4497 /* Pods-CMPushNotificationService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMPushNotificationService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F335EA67DB43084083EFF59E54361461 /* Pods-CMPushNotificationService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMPushNotificationService_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F521B0C7B5E25B39C8FDCB75FB2E5E0F /* Pods-CMPushNotificationService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMPushNotificationService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EAD8FB33629E58699F9AD4DAC7A6AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86FC3F763817075EE23E33905EA3377 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97AC9C3F1687195424A88DE2E713B169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F098DE66177BF7F7CD622AC7D34F017 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB549A5D1A1935ACDA9616C148AD186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDD5CEC14C5ED5EF0BCBB470A93DB99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		081B25A5007FD788B0B0DA27945FB114 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42A75DF492684ACBD98CC9BC079E318A /* Pods-CMPushNotificationService_Example */,
+				4E0E2C6BFE05D7C8B05FD75BB2159401 /* Pods-CMPushNotificationService_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		104E7299D12F63916F54F7C3AE0D8DC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D21941AC695290513288B657F9DE9CE9 /* CMPushNotificationService.framework */,
+				CAADCF650F1D49110FEB19F00955A070 /* Pods_CMPushNotificationService_Example.framework */,
+				301668E94179CE566B2CC331D04423BD /* Pods_CMPushNotificationService_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33694D252A3B52886BE6AF96CCAF7BDD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6261860B97CA3E7100B7B9E195F60FB /* CMPushNotificationService */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		42A75DF492684ACBD98CC9BC079E318A /* Pods-CMPushNotificationService_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7E075E4EB67517341D47238352061 /* Pods-CMPushNotificationService_Example.modulemap */,
+				DA6EB98E4B283A51BF76E039252D6184 /* Pods-CMPushNotificationService_Example-acknowledgements.markdown */,
+				58436481FE848E5F7B87C346129A2104 /* Pods-CMPushNotificationService_Example-acknowledgements.plist */,
+				C2D9A6CFD096CA4459875260A44E2C01 /* Pods-CMPushNotificationService_Example-dummy.m */,
+				9C3333023E4631C6183DF20A6DCFEDB2 /* Pods-CMPushNotificationService_Example-frameworks.sh */,
+				BF5A3C820383643B4ABF7D5E2BC9B18D /* Pods-CMPushNotificationService_Example-Info.plist */,
+				C77540D888FE529D3ACF3A2355BDCEED /* Pods-CMPushNotificationService_Example-umbrella.h */,
+				F335EA67DB43084083EFF59E54361461 /* Pods-CMPushNotificationService_Example.debug.xcconfig */,
+				499E229401720B5513E76BB94D8B8755 /* Pods-CMPushNotificationService_Example.release.xcconfig */,
+			);
+			name = "Pods-CMPushNotificationService_Example";
+			path = "Target Support Files/Pods-CMPushNotificationService_Example";
+			sourceTree = "<group>";
+		};
+		4E0E2C6BFE05D7C8B05FD75BB2159401 /* Pods-CMPushNotificationService_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5D3340FC064F0D812CDCA043143B76F2 /* Pods-CMPushNotificationService_Tests.modulemap */,
+				01DC45E2230E19435FB5949F3E7FDF59 /* Pods-CMPushNotificationService_Tests-acknowledgements.markdown */,
+				EA6D58BD1CE39AAC3077A1CEF4AD4497 /* Pods-CMPushNotificationService_Tests-acknowledgements.plist */,
+				5C8E06EEF3492B5A4B1705EB95E0B2E6 /* Pods-CMPushNotificationService_Tests-dummy.m */,
+				CA011AB8F8E8D20F813E2E3A7190272C /* Pods-CMPushNotificationService_Tests-Info.plist */,
+				3EFB74C160961DF888E11C2A8F28736C /* Pods-CMPushNotificationService_Tests-umbrella.h */,
+				F521B0C7B5E25B39C8FDCB75FB2E5E0F /* Pods-CMPushNotificationService_Tests.debug.xcconfig */,
+				C57D638645D815BC928EB51C20915E57 /* Pods-CMPushNotificationService_Tests.release.xcconfig */,
+			);
+			name = "Pods-CMPushNotificationService_Tests";
+			path = "Target Support Files/Pods-CMPushNotificationService_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE92984EC8BC086E223D0E08A9FB4D1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3059D106C7500D11F5120E7DD824A71F /* CMPushNotificationService.modulemap */,
+				9DFABA6CC7F5EFFF0327B0A03A205DB9 /* CMPushNotificationService.xcconfig */,
+				7C8C8C5D3063DA718D9F1D7689EC4E60 /* CMPushNotificationService-dummy.m */,
+				459AC1033F6B2DA3ED1957DBC3B2C610 /* CMPushNotificationService-Info.plist */,
+				D30D72AE80B3075789F7DCA41A2E85B7 /* CMPushNotificationService-prefix.pch */,
+				4622284C7C2D4F260633AC2BFF352B31 /* CMPushNotificationService-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CMPushNotificationService";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				33694D252A3B52886BE6AF96CCAF7BDD /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				104E7299D12F63916F54F7C3AE0D8DC9 /* Products */,
+				081B25A5007FD788B0B0DA27945FB114 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6261860B97CA3E7100B7B9E195F60FB /* CMPushNotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				77FCE8B5687C96E98C07FB4622D1E748 /* ReplaceMe.m */,
+				EE10618C7F38178D61DEA55958C10996 /* Pod */,
+				CE92984EC8BC086E223D0E08A9FB4D1E /* Support Files */,
+			);
+			name = CMPushNotificationService;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EE10618C7F38178D61DEA55958C10996 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C7893D3E23B6FEAF8F98E5A2A8BC56F1 /* CMPushNotificationService.podspec */,
+				5E82798A0BC1E4B129725B123A533D6C /* LICENSE */,
+				303C25D8DCD6561BFCD822B21899F703 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AC9FF80375510441E756C730F35FF86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6B8292994D9A46666DEC10D92C426F /* Pods-CMPushNotificationService_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2BCF9A715A75B328492DF6D38BCA6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3238FA34AA5CB31F4DEA109ADF3BF1 /* Pods-CMPushNotificationService_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CD56F23030A43EC2E0D08AD68E5E87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0D3113A084C6853F0B36692D605D54 /* CMPushNotificationService-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48F4294C9EAEAD96A83D208C1E98E7B0 /* Pods-CMPushNotificationService_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9FB0A3FACB2580A846DB926AA2FF321 /* Build configuration list for PBXNativeTarget "Pods-CMPushNotificationService_Example" */;
+			buildPhases = (
+				0AC9FF80375510441E756C730F35FF86 /* Headers */,
+				B4F55C087CE28A71F54593C80499C6C7 /* Sources */,
+				9FB549A5D1A1935ACDA9616C148AD186 /* Frameworks */,
+				F4634AD2A0F6B885892F12167806FADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90F132C8E41D5D26B477B0E48450572F /* PBXTargetDependency */,
+			);
+			name = "Pods-CMPushNotificationService_Example";
+			productName = "Pods-CMPushNotificationService_Example";
+			productReference = CAADCF650F1D49110FEB19F00955A070 /* Pods_CMPushNotificationService_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C2BB29D6DFED6E07DF59F2CDC8C77BD /* Pods-CMPushNotificationService_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9612F0A00521C9DEA4A4E43CF06378 /* Build configuration list for PBXNativeTarget "Pods-CMPushNotificationService_Tests" */;
+			buildPhases = (
+				3E2BCF9A715A75B328492DF6D38BCA6C /* Headers */,
+				77669BBF6F4F956FC4BA0C1884C0FE42 /* Sources */,
+				97AC9C3F1687195424A88DE2E713B169 /* Frameworks */,
+				592ACE51746D2BAE801CE95F399FCDCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC3F3619805D5BD6CA7135FB2A5879DF /* PBXTargetDependency */,
+			);
+			name = "Pods-CMPushNotificationService_Tests";
+			productName = "Pods-CMPushNotificationService_Tests";
+			productReference = 301668E94179CE566B2CC331D04423BD /* Pods_CMPushNotificationService_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96BBECC8DB2B1C6FC6BBF65CF4E00A58 /* CMPushNotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FD7E2E502BD32254F816B6A18020749 /* Build configuration list for PBXNativeTarget "CMPushNotificationService" */;
+			buildPhases = (
+				F6CD56F23030A43EC2E0D08AD68E5E87 /* Headers */,
+				B3E415DD69F06928D07F572295265068 /* Sources */,
+				1EAD8FB33629E58699F9AD4DAC7A6AF3 /* Frameworks */,
+				DAEAFE7235F6295DADE3528F9970313E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMPushNotificationService;
+			productName = CMPushNotificationService;
+			productReference = D21941AC695290513288B657F9DE9CE9 /* CMPushNotificationService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 104E7299D12F63916F54F7C3AE0D8DC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96BBECC8DB2B1C6FC6BBF65CF4E00A58 /* CMPushNotificationService */,
+				48F4294C9EAEAD96A83D208C1E98E7B0 /* Pods-CMPushNotificationService_Example */,
+				7C2BB29D6DFED6E07DF59F2CDC8C77BD /* Pods-CMPushNotificationService_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		592ACE51746D2BAE801CE95F399FCDCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAEAFE7235F6295DADE3528F9970313E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4634AD2A0F6B885892F12167806FADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77669BBF6F4F956FC4BA0C1884C0FE42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C797C9422A926D82C35A6D15FDFE0B5A /* Pods-CMPushNotificationService_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E415DD69F06928D07F572295265068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D0064BE6EE659727B608178DC07103 /* CMPushNotificationService-dummy.m in Sources */,
+				C74072FC81CB0475A25606B8597BC09A /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F55C087CE28A71F54593C80499C6C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA31C584E355FBA1E695342CAD6AC6C5 /* Pods-CMPushNotificationService_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90F132C8E41D5D26B477B0E48450572F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CMPushNotificationService;
+			target = 96BBECC8DB2B1C6FC6BBF65CF4E00A58 /* CMPushNotificationService */;
+			targetProxy = F5F76E35BB6EAFB868E866AB72C82009 /* PBXContainerItemProxy */;
+		};
+		CC3F3619805D5BD6CA7135FB2A5879DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CMPushNotificationService_Example";
+			target = 48F4294C9EAEAD96A83D208C1E98E7B0 /* Pods-CMPushNotificationService_Example */;
+			targetProxy = 24E53581EDFD174F46B8847151154218 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		181920B64D73413B89E63720C91B1E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFABA6CC7F5EFFF0327B0A03A205DB9 /* CMPushNotificationService.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CMPushNotificationService/CMPushNotificationService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CMPushNotificationService/CMPushNotificationService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CMPushNotificationService/CMPushNotificationService.modulemap";
+				PRODUCT_MODULE_NAME = CMPushNotificationService;
+				PRODUCT_NAME = CMPushNotificationService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DF468FDB4DBAE9E70E204FD5E753499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFABA6CC7F5EFFF0327B0A03A205DB9 /* CMPushNotificationService.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CMPushNotificationService/CMPushNotificationService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CMPushNotificationService/CMPushNotificationService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CMPushNotificationService/CMPushNotificationService.modulemap";
+				PRODUCT_MODULE_NAME = CMPushNotificationService;
+				PRODUCT_NAME = CMPushNotificationService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5FB37E6D994B201068AA9696CAA568E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499E229401720B5513E76BB94D8B8755 /* Pods-CMPushNotificationService_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CMPushNotificationService_Example/Pods-CMPushNotificationService_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CMPushNotificationService_Example/Pods-CMPushNotificationService_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B6D09923EEF4D5FF0ACF849351BE150A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F335EA67DB43084083EFF59E54361461 /* Pods-CMPushNotificationService_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CMPushNotificationService_Example/Pods-CMPushNotificationService_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CMPushNotificationService_Example/Pods-CMPushNotificationService_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF5A45288057D953043DC2CC9DE973E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57D638645D815BC928EB51C20915E57 /* Pods-CMPushNotificationService_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CMPushNotificationService_Tests/Pods-CMPushNotificationService_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CMPushNotificationService_Tests/Pods-CMPushNotificationService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDA36F21E2AFB07834C0F9CCF1376CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F521B0C7B5E25B39C8FDCB75FB2E5E0F /* Pods-CMPushNotificationService_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CMPushNotificationService_Tests/Pods-CMPushNotificationService_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CMPushNotificationService_Tests/Pods-CMPushNotificationService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FD7E2E502BD32254F816B6A18020749 /* Build configuration list for PBXNativeTarget "CMPushNotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF468FDB4DBAE9E70E204FD5E753499 /* Debug */,
+				181920B64D73413B89E63720C91B1E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9612F0A00521C9DEA4A4E43CF06378 /* Build configuration list for PBXNativeTarget "Pods-CMPushNotificationService_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA36F21E2AFB07834C0F9CCF1376CA3 /* Debug */,
+				CF5A45288057D953043DC2CC9DE973E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9FB0A3FACB2580A846DB926AA2FF321 /* Build configuration list for PBXNativeTarget "Pods-CMPushNotificationService_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D09923EEF4D5FF0ACF849351BE150A /* Debug */,
+				5FB37E6D994B201068AA9696CAA568E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
